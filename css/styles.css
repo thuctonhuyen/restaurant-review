@@ -136,7 +136,7 @@ nav h1 a {
 #restaurants-list {
   background-color: #f3f3f3;
   list-style: outside none none;
-  margin: 2rem;
+  margin: 1.5rem;
   padding: 30px 15px 60px;
   text-align: center;
 
@@ -156,11 +156,10 @@ nav h1 a {
   background-color: #fff;
   border: 2px solid #ccc;
   font-family: Arial,sans-serif;
-  margin: 15px;
+  margin: 1rem;
   min-height: 380px;
-  padding: 0 30px 25px;
+  padding: 1rem;
   text-align: left;
-  /* width: 270px; */
 
   flex: 0 0 100%;
   width: 100%;
@@ -215,6 +214,11 @@ nav h1 a {
   text-decoration: none;
   text-transform: uppercase;
 }
+#restaurants-list li a:hover, #restaurants-list li a:focus {
+  background-color: darkorange;
+}
+
+
 
 /* ====================== Restaurant Details ====================== */
 .inside header {
@@ -314,7 +318,7 @@ nav h1 a {
 
 @media only screen and (min-width: 640px) {
   #reviews-list li {
-    width: 85;
+    width: 85%;
   }
 }
 
