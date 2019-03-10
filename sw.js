@@ -48,8 +48,6 @@ self.addEventListener('fetch', function (event) {
       return response
         ? response
         : fetch(event.request);
-    })).catch(function(){
-      return new Response('You seem to be offline and we are sorry that we did not find any previous cache for this URL!');
-    })
+    }))
   }
 })
